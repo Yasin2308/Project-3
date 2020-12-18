@@ -1,0 +1,288 @@
+  /* ........................Defult Css......................... */
+/* .......................Google Fonts....................... */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+
+/*
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container::before,
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-25{
+    width: 25%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-40{
+    width: 40%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-60{
+    width: 60%;
+    padding:0 15px;
+    float: left;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+   
+}
+
+.catagory-section-top{
+    padding-top: 100px;
+}
+
+.catagory-section-bottom{
+    padding-bottom: 100px;
+}
+
+/* -------------------Header CSS---------------------- */
+header{
+    padding: 10px 15px;
+}
+.logo{
+    padding-top: 20px;
+}
+.logo img{
+    height: 30px;
+    padding-left: 60px;
+}
+
+.main-menu {
+    float: right;
+    padding: 20px 0;
+}
+
+.main-menu ul li{
+    list-style:none;
+    float: left;
+    padding: 10px 10px;
+}
+
+.main-menu ul li a{
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    color: #505050;;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.src-btn{
+    padding-top: 20px;
+}
+
+.src-btn .search{
+    padding: 10px;
+    float: left;
+}
+.src-btn .search i{
+    color: #FF3115;
+}
+.src-btn .apply{
+    padding: 10px;
+}
+.src-btn .apply a{
+    padding: 8px 15px;
+    background: #FF3115;
+    text-decoration: none;
+    color: snow;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+}
+/* -------------------Banner CSS---------------------- */
+.banner{
+    background-image: url(../img/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.home {
+    width: 50%;
+    padding: 70px 0;
+}
+
+.home .head{
+    padding: 50px 0px 50px 100px;
+}
+.home .head h4{
+    color: #ff3115;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.home .head h1{
+    color: #fff;
+    font-size: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.home .head p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.home .head .on {
+    float: left;
+    padding: 50px 20px 20px;
+}
+.home .head .hov{
+    padding: 50px 20px 20px;
+}
+.home .head .on a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff3115;
+    padding: 15px 35px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.home .head .hov a{
+    text-decoration: none;
+    color: #333333;
+    background-color:#fff;
+    padding: 15px 35px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 0.9s ease;
+}
+.home .head .hov a:hover{
+    background-color: #ff3115;
+    color: #fff;
+}
+
+/* -------------------courses CSS---------------------- */
+.courses .container{
+    background: url(../img/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+.crs{
+    padding: 100px 130px;
+}
+.courses .crs i{
+    color: #ff3115;
+    font-size: 50px;
+}
+.courses .crs h3{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.courses .crs h4{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/* -------------------Learning CSS---------------------- */
+.learn-head{
+    text-align: center;
+    padding: 40px 30px;
+}
+.learn-head h1{
+    color: #212121;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+.learn-head span{
+    color: #ff3115;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.learn-head p{
+    color: #505050;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.learning .course-content{
+    background-color: #F2F2F2;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 50px 25px;
+    margin-bottom: 25px;
+}
+.learning .course-content:hover{
+    border: 1px solid #ff3115;
+}
+
+.learning .course-content img{
+    padding: 20px 150px;
+}
+.learning .course-content h2{
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.learning .course-content p{
+    color: #505050;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+/* ------------------- CSS---------------------- */
+
+
